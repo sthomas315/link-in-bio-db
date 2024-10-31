@@ -17,8 +17,8 @@ task({ :sample_data => :environment }) do
   puts "Creating second item..."
   item_2 = Item.new
   item_2.link_url = "https://www.linkedin.com/in/sara-thomas-236394192/"
-  item_1.link_description = "My LinkedIn"
-  item_1.thumbnail_url = "https://fastly.picsum.photos/id/6/5000/3333.jpg?hmac=pq9FRpg2xkAQ7J9JTrBtyFcp9-qvlu8ycAi7bUHlL7I"
-  item_1.save
+  item_2.link_description = "My LinkedIn"
+  item_2.thumbnail_url = "https://fastly.picsum.photos/id/6/5000/3333.jpg?hmac=pq9FRpg2xkAQ7J9JTrBtyFcp9-qvlu8ycAi7bUHlL7I"
+  item_2.save
   puts "Done!"
 end
